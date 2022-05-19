@@ -10,13 +10,13 @@
     --secondary-color: #000;
    
 }
-
-@media (max-width: 767px){
+@media (max-width: 450px){
     #h1{
-        font-size: 50px;
+        font-size: 40px;
     }
     #img1{
         width: 50%;
+        margin-left: 60px;
     }
     .foot{
         width: 50%;
@@ -24,7 +24,42 @@
     .lastp{
         font-size: 20px;
     }
+    #mymy{
+        display: none;
+        
+    }
+    #one{
+        width: 20%;
+        margin-left: 0px;
+    }
+    #two{
+        width: 40%;
+        display: none;
+    }
+    #three{
+        width: 80%;
+    }
+    #header{
+        height: 65vh;
+    }
 }
+@media (min-width: 451px) and (max-width: 760px){
+    #img1{
+        width: 70%;
+        margin-left: 30px;
+    }
+    #h1{
+        font-size: 40px;
+    }
+    #mymy{
+        display: none;
+        visibiity: hidden;
+    }
+
+        
+    
+}
+
 
 a:hover, a:active{
     color: red;
