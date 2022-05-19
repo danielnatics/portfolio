@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
     <title>Portfolio</title>
     <style>
-      a:hover{
-        color: red;
-      }
+      
     </style>
     
     <link rel="stylesheet" href="css.mbd/mdb.min.css"/>
@@ -18,12 +16,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     
 </head>
-<body class="" style="background-color: black;">
+<body class="" style="background-color: var(--secondary-color);">
+
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light navy border border-danger" id="vavbar">
+    <nav class="navbar navbar-expand-lg navy border fixed-top border-danger" id="vavbar">
       <div class="container-fluid">
           <a class="navbar-brand ms-3 me-4" href="#!">
-              <img src="logo.png" alt="" width="32" height="26" class="border border-danger d-inline-block align-text-top border-cicle">
+              <img src="images/logo.png" alt="" width="32" height="26" class="border border-danger d-inline-block align-text-top border-cicle">
               
             </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,22 +31,22 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
             <li class="nav-item">
-              <a class="nav-link text-light me-3 menu border-bottom border-danger border-3" aria-current="page" href="#">Home</a>
+              <a class="nav-link me-3 menu border-bottom border-danger light border-3" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light me-3 menu border-bottom border-danger border-3" href="#about">About</a>
+              <a class="nav-link light me-3 menu border-bottom border-danger border-3" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light me-3 menu border-bottom border-danger border-3" href="#services">Services</a>
+              <a class="nav-link light me-3 menu border-bottom border-danger border-3" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light me-3 menu border-bottom border-danger border-3" href="#portfolio">Portfolio</a>
+              <a class="nav-link light me-3 menu border-bottom border-danger border-3" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light me-3 menu border-bottom border-danger border-3" href="#blog">Blog</a>
+              <a class="nav-link light me-3 menu border-bottom border-danger border-3" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light me-3 menu border-bottom border-danger border-3" href="#contact">Contact</a>
+              <a class="nav-link light me-3 menu border-bottom border-danger border-3" href="#contact">Contact</a>
             </li>             
           </ul>
           <div class="social mx-5 text-center mb-2">
@@ -58,19 +57,19 @@
             <a href=""><ion-icon name="logo-github" class="icon mx-2"></ion-icon></a>
          </div>
       
-          <button type="button" class="btn btn-transparent border-light btn-lg text-light hire me-3 ">Hire a Professional</button>
+          <button type="button" class="btn btn-transparent border-light btn-lg light hire me-3 ">Hire a Professional</button>
         </div>
       </div>
       </nav>
 
 
       
-        <div class="card pb-5" style="max-width: 100%; background-color: black;">
+        <div class="card shadow-none border-0 pb-5" style="max-width: 100%; background-color: var(--secondary-color);">
           <div class="row g-0">
             <div class="col-md-9">
               <div class="dahez">
                 <p style="color: #ecec; letter-spacing: 2px; word-spacing: 3px;">FREELANCE MOBILE DEVELOPER</p>
-                <h1 class="fs">Hello, I'm <span>Dahez</span><br>Welcome to my <br>World.</h1>
+                <h1 class="fs" id="h1">Hello, I'm <span>Dahez</span><br>Welcome to my <br>World.</h1>
               </div>
               
             </div>
@@ -79,7 +78,8 @@
                 src=""
                 alt="img"
               
-                class="img-fluid rounded-start pb-5"
+                class="img-fluid rounded-start pb-5 " style="width: 100%;
+                height: auto;"
                 
               />
             </div>
@@ -91,17 +91,17 @@
       
         
   </header>
-  <div class="card mb-3 about" style="max-width: 100%;">
+  <div class="card shadow-none border-0 mb-3 about" style="max-width: 100%;">
     <div class="row g-0 ms-2" >
       <div class="col-md-4 col-sm-4">
-        <img src="img.png" width="340" height="504px" class="img-fluid rounded" alt="...">
+        <img src="images/img.png" id="img1" class="img-fluid rounded" alt="...">
       </div>
       <div class="col-md-8 col-sm-8">
         <div class="card-body">
           <h5 class="card-title about-me" id="about">About Me</h5>
           <p class="card-text">My Expertise in mobile development allows me to build exactly the same app you sent as a reference-from first prototype to final product. Mobile developer, worked as software engineer, software development team leader. Accurate and well organized, always looking for the most elegant and efficient solutions. <br>Fluent verbal and written English allows me to communicate easily with clients without misunderstanding. So do not hesitate to contact me if you need a developer or some sort of mobile consulting. <br>What do I propose to every clinet: CODE-Well written, readable, structured and commented; DESIGN- Modern beautiful, fresh and always a pixel perfect one; COMMUNICATIONS-I keep my work on the project; PERFORMANCE- Always fast working application, otherwise my work does not make any sense. Created 16+ Mobile Apps.<p>
             <nav>
-              <div class="nav nav-tabs " id="nav-tab" style="border-bottom: 1px solid black;" role="tablist">
+              <div class="nav nav-tabs " id="nav-tab" style="border-bottom: 1px solid var(--secondary-color);" role="tablist">
                 <button class="nav-link text-secondary" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Main skills</button>
                 <button class="nav-link text-secondary" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Awards</button>
                 <button class="nav-link text-secondary" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Experience</button>
@@ -182,7 +182,7 @@
           </div>
         <div class="col">
           <div class="card bg-dark hover h-100">
-            <img src="game.jpg" width="150" height="180" class="card-img-top" alt="...">
+            <img src="image/game.jpg" width="150" height="180" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Game Development</h5>
               <p class="card-text">Do you want to launch a enticing game for users or for commercial purpose. Nowadays Games are hot cake</p>
@@ -196,7 +196,7 @@
       </div>
 
       <div>
-        <div class="text" id="portfolio">
+        <div class="text h-100" id="portfolio" >
           <h1 style="font-size: 45px;">My Latest Project</h1>
           <p>There are so any outstanding built project which may not be included here, due to the privacy policy attached to the project</p>
         </div>
@@ -365,17 +365,17 @@
     
         
       <section class="bg-dark mt-5 w-100" style="width: 100%;">
-      <div class="card hire-me pb-5" style="max-width: 100%; background-color: black;">
+      <div class="card shadow-none border-0 hire-me w-100 pb-5" style="background-color: var(--secondary-color);">
         <div class="row g-0">
           <div class="col-md-6">
             <h1 id="contact">Hire Me</h1>
-        <p class="text-secondary">I am available for freelance work. Connect with me via phone: <br> <a href="tel:+2348130123588" class="text-decoration-none text-light">Click here to call</a> or email: <a href="mailto:danielegwuatu123@gmail.com" class="text-light text-decoration-none text-secondary">danielegwuatu@gmail.com</a></p>
+        <p class="text-secondary">I am available for freelance work. Connect with me via phone: <br> <a href="tel:+2348130123588" class="text-decoration-none light">Click here to call</a> or email: <a href="mailto:danielegwuatu123@gmail.com" class="light text-decoration-none">danielegwuatu@gmail.com</a></p>
         
             <form>
               <!-- Name input -->
               <div class="form-outline mb-4">
                 <input type="text" id="form4Example1" class="form-control" />
-                <label class="form-label text-secondary for="form4Example1">Your name</label>
+                <label class="form-label text-secondary" for="form4Example1">Your name</label>
               </div>
             
               <!-- Email input -->
@@ -390,7 +390,7 @@
               </div>
             
               <!-- Message input -->
-              <div class="form-outline mb-4" style="background-color: black;">
+              <div class="form-outline mb-4" style="background-color: var(--secondary-color);">
                 <textarea class="form-control" id="form4Example3" rows="4"></textarea>
                 <label class="form-label text-secondary" for="form4Example3">Message</label>
               </div>
@@ -405,11 +405,11 @@
           </div>
           <div class="col-md-6">
             <img
-              src="img.png"
+              src="images/img.png"
               alt="Trendy"
-              class="img-fluid rounded-start
-            " height="340" width="300"
-              
+              class="img-fluid rounded"
+             height="340" width="300"
+              id="img"
             />
           </div>
          
@@ -432,7 +432,7 @@
         <a href="#!"><ion-icon name="logo-github" class="icon mx-1 fs-5"></ion-icon></a>
      </div> 
      <div>
-       <p class="text-light " style="font-size: 12px;">&copy;2022 All rights reserved by Dahez</p>
+       <p class="light lastp" style="font-size: 12px;">&copy;2022 All rights reserved by Dahez</p>
      </div>
   </div>
 
@@ -440,7 +440,27 @@
       
     
       <a href="#"><i class="bi bi-arrow-up-circle-fill fs-1 top"></i></a> 
-      <a href="#!"><i class="bi bi-moon-fill fs-1 pot"></i></a> 
+      <img src="images/sun.png" class="pot" id="icon"> 
+      <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+          document.body.classList.toggle("dark-theme");
+         if(document.body.classList.contains("dark-theme")){
+           icon.src = "images/moon.png";
+           img.src = "images/imgw.png";
+           img1.src = "images/imgw.png";
+         }else{
+           icon.src = "images/sun.png";
+           img.src = "images/imgw.png";
+           img1.src = "images/imgw.png";
+         }
+        }
+      </script>
+          
+
+
+    
     <script src="js/bootstrap.bundle.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script type="text/javascript" src="js.mbd/mdb.min.js"></script>
