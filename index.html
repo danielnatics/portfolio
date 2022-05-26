@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     
     
@@ -224,7 +225,7 @@
 
 <!-- Card -->
                   <!-- Card -->
-                  <div class="col">
+                  <div class="col" data-aos="slide-left">>
                     <div class="bg-image card shadow-1-strong" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/018.webp'); height: 200px;">
                       <div class="card-body text-white text-center " style="padding: 54px;">
                         <p class="card-title" style="font-size: 13px; color: #ecec;">Mobile App</p>
@@ -236,7 +237,7 @@
               
               <!-- Card -->
                                 <!-- Card -->
-    <div class="col">
+    <div class="col" data-aos="slide-right">>
       <div class="bg-image card shadow-1-strong" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/026.webp'); height: 200px;">
         <div class="card-body text-white text-center " style="padding: 54px;">
           <p class="card-title" style="font-size: 13px; color: #ecec;">Mobile App</p>
@@ -248,7 +249,7 @@
 
 <!-- Card -->
                   <!-- Card -->
-                  <div class="col">
+                  <div class="col" data-aos="slide-left">>
                     <div class="bg-image card shadow-1-strong" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp'); height: 200px;">
                       <div class="card-body text-white text-center " style="padding: 54px;">
                         <p class="card-title" style="font-size: 13px; color: #ecec;">Design Mobile App Website</p>
@@ -260,7 +261,7 @@
               
               <!-- Card -->
                                 <!-- Card -->
-    <div class="col">
+    <div class="col" data-aos="flip-up">>
       <div class="bg-image card shadow-1-strong" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp'); height: 200px;">
         <div class="card-body text-white text-center " style="padding: 54px;">
           <p class="card-title" style="font-size: 13px; color: #ecec;">Mobile App Websites</p>
@@ -272,7 +273,7 @@
 
 <!-- Card -->
  <!-- Card -->
- <div class="col">
+ <div class="col" data-aos="fade-left">>
   <div class="bg-image card shadow-1-strong" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/018.webp'); height: 200px;">
     <div class="card-body text-white text-center " style="padding: 54px;">
       <p class="card-title" style="font-size: 13px; color: #ecec;">Mobile App</p>
@@ -313,7 +314,7 @@
               </div> 
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-left">
             <div class="bg-image card shadow-1-strong" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');  height: 200px;">
               <div class="card-body text-white text-center " style="padding-top: 115px;">
                 <p class="card-title" style="font-size: 13px; color: #ecec;">Development, Gallery</p>
@@ -322,7 +323,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-right">>
             <div class="bg-image card shadow-1-strong" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp'); height: 200px;">
               <div class="card-body text-white text-center " style="padding-top: 115px;">
                 <p class="card-title" style="font-size: 13px; color: #ecec;">Development</p>
@@ -331,7 +332,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-left">>
             <div class="bg-image card shadow-1-strong" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp'); height: 200px;">
               <div class="card-body text-white text-center " style="padding-top: 115px;">
                 <p class="card-title" style="font-size: 13px; color: #ecec;">Development</p>
@@ -340,7 +341,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-right">>
             <div class="bg-image card shadow-1-strong" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp'); height: 200px;">
               <div class="card-body text-white text-center " style="padding-top: 115px;">
                 <p class="card-title" style="font-size: 13px; color: #ecec;">Qoute</p>
@@ -349,7 +350,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-left">>
             <div class="bg-image card shadow-1-strong" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/city/055.webp'); height: 200px;">
               <div class="card-body text-white text-center " style="padding-top: 115px;">
                 <p class="card-title" style="font-size: 13px; color: #ecec;">Development</p>
@@ -470,12 +471,19 @@
          }
         }
       </script>
-          
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset: 300,
+            duration: 700
+          });
+        </script>    
 
 
     
     <script src="js/bootstrap.bundle.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script type="text/javascript" src="js.mbd/mdb.min.js"></script>
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>
