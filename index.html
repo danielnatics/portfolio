@@ -12,26 +12,27 @@
     <link rel="stylesheet" href="css.mbd/mdb.min.css"/>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
     
 </head>
-<body class="" style="background-color: var(--secondary-color);">
+<body class="" style="background-color: var(--secondary-color); opacity: .9;">
 
   <header id="header">
     <nav class="navbar navbar-expand-lg navy border fixed-top border-danger" id="vavbar">
       <div class="container-fluid">
           <a class="navbar-brand ms-3 me-4" href="#!">
-              <img src="images/logo.png" alt="" width="32" height="26" class="border border-danger d-inline-block align-text-top border-cicle">
+              <img src="images/logo.png" alt="" style="width: 40px; height: 34px;" class="border-0 rounded-circle d-inline-block align-text-top border-cicle">
               
             </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon border-cicle" style="background-color: #ecec;"></span>
+        <button class="navbar-toggler" style="color: #fff !important;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <ion-icon name="reorder-three-outline" style="font-size: 30px;"></ion-icon>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
             <li class="nav-item">
-              <a class="nav-link me-3 menu border-bottom border-danger light border-3" aria-current="page" href="https://danielnatics.github.io/form/">Home</a>
+              <a class="nav-link me-3 menu border-bottom border-danger light border-3" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link light me-3 menu border-bottom border-danger border-3" href="#about">About</a>
@@ -55,6 +56,7 @@
             <a href=""><ion-icon name="logo-linkedin" class="icon mx-2"></ion-icon></a>
             <a href=""><ion-icon name="logo-instagram" class="icon mx-2"></ion-icon></a>
             <a href=""><ion-icon name="logo-github" class="icon mx-2"></ion-icon></a>
+            
          </div>
       
           <button type="button" class="btn btn-transparent border-light btn-lg light hire me-3 ">Hire a Professional</button>
@@ -64,11 +66,11 @@
 
 
       
-        <div class="card shadow-none border-0 pb-5" style="max-width: 100%; background-color: var(--secondary-color);">
-          <div class="row g-0">
+        <div class="card shadow-none border-0 " style="max-width: 100%; background-color: var(--secondary-color);">
+          <div class="row g-0 ">
             <div class="col-md-9">
-              <div class="dahez">
-                <p style="color: #ecec; letter-spacing: 2px; word-spacing: 3px;">FREELANCE MOBILE DEVELOPER</p>
+              <div class="dahez" id="dahez">
+                <p class="free" style="color: rgba(238, 204, 204, 0.781); letter-spacing: 2px; word-spacing: 3px;">FREELANCE MOBILE DEVELOPER</p>
                 <h1 class="fs" id="h1">Hello, I'm <span>Dahez</span><br>Welcome to my <br>World.</h1>
               </div>
               
@@ -91,21 +93,25 @@
       
         
   </header>
-  <div class="card shadow-none border-0 mb-3 about" style="max-width: 100%;">
-    <div class="row g-0 ms-2" >
-      <div class="col-md-4 col-sm-4">
-        <img src="images/img.png" id="img1" class="img-fluid rounded" alt="...">
+  <div class="card shadow-none hes border-0 mb-3 about" style="max-width: 100%;">
+    <div class="row g-0 mx-2 " >
+      <div class="col-md-4 col-sm-4 about-image">
+        
+        
       </div>
       <div class="col-md-8 col-sm-8">
         <div class="card-body">
           <h5 class="card-title about-me" id="about">About Me</h5>
-          <p class="card-text">My Expertise in mobile development allows me to build exactly the same app you sent as a reference-from first prototype to final product. Mobile developer, worked as software engineer, software development team leader. Accurate and well organized, always looking for the most elegant and efficient solutions. <br>Fluent verbal and written English allows me to communicate easily with clients without misunderstanding. So do not hesitate to contact me if you need a developer or some sort of mobile consulting. <br>What do I propose to every clinet: CODE-Well written, readable, structured and commented; DESIGN- Modern beautiful, fresh and always a pixel perfect one; COMMUNICATIONS-I keep my work on the project; PERFORMANCE- Always fast working application, otherwise my work does not make any sense. Created 16+ Mobile Apps.<p>
+          <p class="card-text">My Expertise in mobile development allows me to build exactly the same app you sent as a reference-from first prototype to final product. Mobile developer, worked as software engineer, software development team                   Accurate and well organized, always looking for the most elegant and efficient solutions. <br>Fluent verbal and written English allows me to communicate easily with clients without misunderstanding. So do not hesitate to contact me if you need a developer or some sort of mobile consulting. <br>What do I propose to every clinet: CODE-Well written, readable, structured and commented; DESIGN- Modern beautiful, fresh and always a pixel perfect one; COMMUNICATIONS-I keep my work on the project; PERFORMANCE- Always fast working application, otherwise my work does not make any sense. Created 16+ Mobile Apps. 
+          
+             <p>
+           
             <nav>
               <div class="nav nav-tabs " id="nav-tab" style="border-bottom: 1px solid var(--secondary-color);" role="tablist">
-                <button class="nav-link text-secondary" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Main skills</button>
-                <button class="nav-link text-secondary" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Awards</button>
-                <button class="nav-link text-secondary" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Experience</button>
-                <button class="nav-link text-secondary" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Education & Certification</button>
+                <button class="nav-link color active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Main skills</button>
+                <button class="nav-link color " id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Awards</button>
+                <button class="nav-link color" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Experience</button>
+                <button class="nav-link color" id="nav-education-tab" data-bs-toggle="tab" data-bs-target="#nav-education" type="button" role="tab" aria-controls="nav-education" aria-selected="false">Education & Certification</button>
                 
               </div>
             </nav>
@@ -127,7 +133,11 @@
                 <p>GADS Mobile Trainee-Google <br>2019-2020</p>
                 <p>Freelance Developer-Upwork <br>2018-Current</p>   
               </div>
-              <div class="tab-pane fade" id="nav-education" role="tabpanel" aria-labelledby="nav-education-tab">you you you</div>
+              <div class="tab-pane fade" id="nav-education" role="tabpanel" aria-labelledby="nav-education-tab">
+                <p>Bsc in Computer Engineering-Nnamdi Azikiwe University, Awka. <br>GPA 4.90/5.00</p>
+                <p>Diploma in AI & ML-NIT,UK <br>2021</p>
+                <p>Hash Code Developer-Google, CA <br>2020</p>
+              </div>
             </div>
         </div>
       </div>
@@ -139,7 +149,7 @@
            
       <div class="services mx-3 mt-5" id="services">
         <div class="text ">
-          <h1 style="font-size: 45px;"> My Awesome Service</h1>
+          <h1 class="h1_my"> My Awesome Service</h1>
         <h3 style="font-size: 17px; margin-top: 15px; margin-bottom: 20px; color: #ecec;">Building Strong, reliable, reusable, modular-based and professional <br> systems, using the current trends in Technology</h3>
         <h4 style="font-size: 16px;">Request Custom Service</h4>
         
@@ -195,9 +205,9 @@
         
       </div>
 
-      <div>
+      <div id="portfolio">
         <div class="text h-100" id="portfolio" >
-          <h1 style="font-size: 45px;">My Latest Project</h1>
+          <h1 class="h1_my">My Latest Project</h1>
           <p>There are so any outstanding built project which may not be included here, due to the privacy policy attached to the project</p>
         </div>
         <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3">
@@ -209,7 +219,7 @@
           <h5 class="card-text fs-5">CashGo-Loan App</h5>
           <a href="#!" class="btn btn-outline-danger text-light" style="font-size: 13px;">VIEW DETAILS</a>
         </div>
-      </div> 
+      </div>
     </div>              
 
 <!-- Card -->
@@ -289,9 +299,10 @@
 
       <div class="container-fluid w-100">
         <div class="text-center" id="blog">
-          <h1>Latest News</h1>
+          <h1 class="h2_my">Latest News</h1>
           <p>Keeping you posted on the trends in technology</p>
         </div>
+      
         <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3">
           <div class="col">
             <div class="bg-image card shadow-1-strong" style=" background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/018.webp'); height: 200px;">
@@ -365,7 +376,7 @@
     
         
       <section class="bg-dark mt-5 w-100" style="width: 100%;">
-      <div class="card shadow-none border-0 hire-me w-100 pb-5" style="background-color: var(--secondary-color);">
+      <div class="card border-0 shadow-none border-0 hire-me w-100 pb-5" style="background-color: var(--secondary-color);">
         <div class="row g-0">
           <div class="col-md-6">
             <h1 id="contact">Hire Me</h1>
@@ -407,7 +418,7 @@
             <img
               src="images/img.png"
               alt="Trendy"
-              class="img-fluid rounded"
+              class="img-fluid rounded visible-xs"
              height="340" width="300"
               id="mymy"
             />
@@ -417,29 +428,31 @@
       </div>
     </section>
 
-    <div class="container-fluid foot " style="width: 100%; margin-top: 70px;" >
-       
-      <div id="one">
-        <a class="navbar-brand ms-3 me-4" href="#">
-          <img src="images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-        </a>
-      </div>  
-      <div class="me" id="two">
-        <a href="#!"><ion-icon name="logo-facebook" class="icon mx-1 fs-5"></ion-icon></a>
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section class="col-xs-4 col-sm-4" >
+            <a class="navbar-brand ms-3 me-4" href="#">
+              <img src="images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            </a>
+          </section>
+          <section class="col-xs-8 col-sm-4" >
+            <a href="#!"><ion-icon name="logo-facebook" class="icon mx-1 fs-5"></ion-icon></a>
         <a href="#!"><ion-icon name="logo-twitter" class="icon mx-1 fs-5"></ion-icon></a>
         <a href="#!"><ion-icon name="logo-linkedin" class="icon mx-1 fs-5"></ion-icon></a>
         <a href="#!"><ion-icon name="logo-instagram" class="icon mx-1 fs-5"></ion-icon></a>
         <a href="#!"><ion-icon name="logo-github" class="icon mx-1 fs-5"></ion-icon></a>
-     </div> 
-     <div id="tthree">
-       <p class="light lastp" style="font-size: 12px;">&copy;2022 All rights reserved by Dahez</p>
-     </div>
-  </div>
+        <a href="#!"><ion-icon name="logo-dribble" class="icon mx-1 fs-5"></ion-icon></a>
+          </section>
+          <section class="col-xs-12 col-sm-4" ><p class="light lastp">&copy;2022 All rights reserved by Dahez</p></section>
+        </div>
+      </div>
+    </footer>
 
    
       
     
-      <a href="#"><i class="bi bi-arrow-up-circle-fill fs-1 top"></i></a> 
+      <a href="#"><i class="bi bi-arrow-up-circle-fill top"></i></a> 
       <img src="images/sun.png" class="pot" id="icon"> 
       <script>
         var icon = document.getElementById("icon");
@@ -448,12 +461,12 @@
           document.body.classList.toggle("dark-theme");
          if(document.body.classList.contains("dark-theme")){
            icon.src = "images/moon.png";
-           img.src = "images/imgw.png";
+           
            img1.src = "images/imgw.png";
          }else{
            icon.src = "images/sun.png";
-           img.src = "images/imgw.png";
-           img1.src = "images/imgw.png";
+           
+           img1.src = "images/img.png";
          }
         }
       </script>
