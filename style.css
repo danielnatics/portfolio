@@ -1,377 +1,396 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none; 
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
-:root{
-    --primary-color: #edf2fc;
-    --secondary-color: #000;
-   
+p {
+  font-family: "Tiro Devanagari Marathi", serif;
+}
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #000;
+}
+body {
+  background-color: var(--secondary-color);
+}
+
+.h1_my,
+.h2_my {
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+a:hover,
+a:active {
+  color: red;
+}
+.dark-theme {
+  --primary-color: #000106;
+  --secondary-color: #fff;
+}
+#icon {
+  width: 40px;
+  cursor: pointer;
+}
+
+.pot {
+  position: fixed;
+  bottom: 4%;
+  left: 6%;
+  color: var(--primary-color);
+}
+header {
+  height: 17vh;
+}
+.light {
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.navbar {
+  position: s;
+}
+#vavbar {
+  top: 0;
+  width: 100%;
+  background-color: var(--secondary-color);
+}
+.navbar-collapse {
+  justify-content: center;
+}
+
+.navbar-toggler {
+  justify-content: center;
+}
+.icon {
+  color: var(--primary-color);
+}
+.hire {
+  font-size: 14px;
+}
+.hire:hover {
+  background-color: red;
+}
+.home > img {
+  position: absolute;
+  width: 290px;
+  right: 0px;
+}
+span {
+  color: red;
+}
+.dahez {
+  margin: 0px auto;
+  height: 68vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.fs {
+  font-size: 70px;
+
+  word-spacing: 10px;
+  font-family: "Lobster", cursive;
+}
+div ul li a:hover {
+  color: red;
+}
+.menu:hover {
+  color: red;
+}
+
+.text {
+  text-align: center;
+}
+
+.hover {
+  cursor: pointer;
+  font-size: 100%;
+}
+.hover:hover {
+  background-color: red;
+}
+.services {
+  margin-top: 0;
+}
+.text2 {
+  text-align: center;
+}
+.about {
+  background-color: var(--secondary-color);
+}
+.about-me {
+  font-size: 65px;
+  transition: 0.4s;
+}
+.about-me:hover {
+  color: red;
+  transition: ease-in-out;
+}
+.send {
+  font-size: 16px;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  width: 100%;
+}
+.imm {
+  background-image: url(https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp);
+  background-size: cover;
+}
+.ime:hover {
+  background-color: red;
+}
+
+.pad {
+  margin-top: 0%;
+}
+div.card:hover {
+  background-color: re;
+}
+.nav-tabs .nav-link.active {
+  background-color: Red;
+  color: #fff;
+  border: 0;
+}
+
+.color {
+  color: #fff !important;
+}
+.panel-footer {
+  background-color: aqua;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.lastp {
+  font-size: 15px;
+  text-align: center;
 }
 
 /******large devices****/
 @media (min-width: 1200px) {
-    .text .h1_my{
-        font-size: 45px;
-        text-transform: capitalize;
-    }
-    .about-image{
-        background-image: url(images/dec.png); 
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 40px; 
-       
-        width: 295px;
-        height: 662px;
-        margin: 0px auto 0px auto;
-    
-    }
-    .top{
-        position: fixed;
-        bottom: 5%;
-        right: 5%;
-        color: var(--primary-color);
-        font-size: 5vw;
-        
-    }
+  .text .h1_my {
+    font-size: 45px;
+    text-transform: capitalize;
+  }
+  .about-image {
+    background-image: url(images/dec.pn);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+
+    width: 25%;
+    height: 662px;
+    margin: 0px auto 0px auto;
+  }
+  .top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    color: var(--primary-color);
+    font-size: 3vw;
+  }
+  .icon {
+    font-size: 20px;
+  }
+  .free {
+    font-size: 20px;
+  }
 }
 /******Medium devices****/
 @media (min-width: 992px) and (max-width: 1199px) {
-    .about-image{
-        background-image: url(images/dec.png); 
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-top-right-radius: 40px; 
-        border-bottom-left-radius: 40px;
-        width: 300px;
-        height: 630px;
-        margin: 0px auto 0px auto;
-    
-    }
-
-}
-/******Small devices****/ 
-@media (min-width: 768px) and (max-width: 991px) {
-    .about-image{
-        background-image: url(images/decy.jpg); 
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-top-right-radius: 40px; 
-        border-bottom-left-radius: 40px;
-        width: 190px;
-        height: 314px;
-        margin: 0px auto 0px auto;
-    
-    }
-    .hes{
-        margin-top: 100px;
-    }
-    #h1{
-        font-size: 45px;
-    }
-    #about{
-        font-size: 55px;
-        text-align: center;
-    }
-    #dahez{
-        margin-top: 230px;
-        margin-left: 30px;
-        margin-right: 10px;
-    }
-    .hes{
-        margin-top: 130px;
-    }
-} 
-@media (min-width: 571px) and (max-width: 767px) {
-    .about-image{
-        background-image: url(images/decy.jpg); 
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-top-right-radius: 40px; 
-        border-bottom-left-radius: 40px;
-        width: 230px;
-        height: 360px;
-        margin: 0px auto 0px auto;
-    
-    }
-    .hes{
-        margin-top: 130px;
-    }
-    #h1{
-        font-size: 45px;
-    }
-    #about{
-        font-size: 55px;
-        text-align: center;
-    }
-}
-/******Extra-small devices****/ 
-@media (max-width: 570px) {
-   .text .h1_my{
-        font-size: 30px;
-        text-transform: capitalize;
-        font-weight: bold;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    .about-image{
-        background-image: url(images/decy.jpg); 
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-top-right-radius: 40px; 
-        border-bottom-left-radius: 40px;
-        width: 220px;
-        height: 350px;
-        margin: 0px auto 0px auto;
-    
-    }
-    #h1{
-        font-size: 35px;
-    }
-    #nav-tab{
-        width: 100%;
-    }
-    #blog{
-        margin-top: 10vh;
-    }
-    #portfolio{
-        margin-top: 75px;
-    }
-    #about{
-        font-size: 40px;
-        text-align: center;
-    }
-    #dahez{
-        margin-top: 230px;
-        margin-left: 30px;
-        margin-right: 10px;
-    }
-    .free{
-        font-size: 14px;
-        font-family: 'Times New Roman', Times, serif;
-        opacity: 1;
-    }
-   
-    .foot{
-        width: 50%;
-    }
-    .lastp{
-        font-size: 15px;
-    }
-    #mymy{
-        display: none;
-        
-    }
-    #one{
-        width: 20%;
-        margin-left: 0px;
-    }
-    #two{
-        width: 40%;
-        display: none;
-    }
-    #three{
-        width: 80%;
-    }
-    #header{
-        height: 65vh;
-    }
-
-    #img1{
-        width: 200px;
-       
-        
-        
-    }
-    
-    #mymy{
-        display: none;
-        
-    }
-    .top{
-        font-size: 11vw;
-        position: fixed;
-        bottom: 4%;
-        
-        ;
-        right: 5%;
-        color: var(--primary-color);
-        font-size: 5vw;
-        
-    }
-     .hes{
-        margin-top: 130px;
-    }
-}
-/***end of media query for extra small devices****/
-.h1_my, .h2_my{
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-
-
-
-
-a:hover, a:active{
-    color: red;
-}
-.dark-theme{
-    --primary-color: #000106;
-    --secondary-color: #fff;
-}
-#icon{
-    width: 30px;
-    cursor: pointer;
-}
-
-.pot{
-    position: fixed;
-    bottom: 4%;
-    left: 6%;
-    color: var(--primary-color);
-}
-header{
-    height: 100vh;
-}
-.light{
-    color: var(--primary-color);
-}
-
-body{
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-}
-.navbar{
-    position: s;
-}
-#vavbar{
-  
-  top: 0;
-  width: 100%; 
-  background-color: var(--secondary-color); 
-}
-.navbar-collapse{
-    justify-content: center;
-}
-
-.navbar-toggler{
-    justify-content: center;
-}
-.icon{
-    color: var(--primary-color);
-}
-.hire{
-    font-size: 14px;
-}
-.hire:hover{
-    background-color: red;
-}
-.home > img{
-    position: absolute;
-    width: 290px;
-    right: 0px;
-}
-span{
-    color: red;
-}
-.dahez{margin-top: 200px;
-margin-left: 30px;
-}
-.fs{
-    font-size: 70px;
-    font-weight: bold;
-    word-spacing: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-}
-div ul li a:hover{
-    color: red;
-}
-.menu:hover{
-    color: red;
-}
-
-
-.text{
-    text-align: center;
-}
-
-.hover{
-    cursor: pointer;
-    font-size: 100%;
-}
-.hover:hover{
-    background-color: red;
-}
-.services{
-    margin-top: 0;
-    height: 100vh;
-}
-.text2{
-    text-align: center;
-}
-.about{
-    background-color: var(--secondary-color);
-}
-.about-me{
-    font-size: 65px;
-    transition: .4s;
-}
-.about-me:hover{
-    color: red;
-    transition: ease-in-out;
-}
-.send{
-    font-size: 16px;
-}
-.foot{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--secondary-color);
-    width: 100%;
-}
-.imm{
-    background-image: url(https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp);
+  .about-image {
+    background-image: url(images/dec.png);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-}
-.ime:hover{
-    background-color: red;
-}
+    border-radius: 40px;
 
-.pad{
-    margin-top: 0%;
+    width: 295px;
+    height: 662px;
+    margin: 0px auto 0px auto;
+  }
+  .icon {
+    font-size: 14px;
+  }
+  .hire {
+    font-size: 11px;
+  }
+  .free {
+    font-size: 20px;
+  }
+  .top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    color: var(--primary-color);
+    font-size: 3vw;
+  }
 }
-div.card:hover{
-   background-color: re;
-}
-.nav-tabs .nav-link.active{
-    background-color: Red;
-    color: #fff;
-    border: 0;
-
-}
-
-.color{
-    color: #fff !important;
-}
-.panel-footer{
-    
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-.lastp{
-    font-size: 15px;
+/******Small devices****/
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-image {
+    background-image: url(images/decy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 220px;
+    height: 350px;
+    margin: 0px auto 0px auto;
+  }
+  .hes {
+    margin-top: 170px;
+  }
+  #h1 {
+    font-size: 65px;
+    line-height: 85px;
+    width: 80%;
+    word-spacing: 7px;
+  }
+  #about {
+    font-size: 55px;
     text-align: center;
+  }
+  #dahez {
+    margin-top: 230px;
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  .free {
+    font-size: 20px;
+  }
+  .top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    color: var(--primary-color);
+    font-size: 3vw;
+  }
 }
+@media (min-width: 571px) and (max-width: 767px) {
+  .about-image {
+    background-image: url(images/decy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 230px;
+    height: 360px;
+    margin: 0px auto 0px auto;
+  }
+  #h1 {
+    font-size: 45px;
+  }
+  #about {
+    font-size: 55px;
+    text-align: center;
+  }
+  .hes {
+    margin-top: 130px;
+  }
+}
+/******Extra-small devices****/
+@media (max-width: 570px) {
+  .text .h1_my {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .about-image {
+    background-image: url(images/decy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 220px;
+    height: 350px;
+    margin: 0px auto 0px auto;
+  }
+  .hes {
+    margin-top: 130px;
+  }
+  #h1 {
+    font-size: 35px;
+  }
+  #nav-tab {
+    width: 100%;
+  }
+  #blog {
+    margin-top: 10vh;
+  }
 
+  #portfolio {
+    margin-top: 75px;
+  }
+  #about {
+    font-size: 40px;
+    text-align: center;
+  }
+  #dahez {
+    height: 37vh;
+  }
+  .free {
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+    opacity: 1;
+  }
 
+  .foot {
+    width: 50%;
+  }
+  .lastp {
+    font-size: 15px;
+  }
+  #mymy {
+    display: none;
+  }
+  #one {
+    width: 20%;
+    margin-left: 0px;
+  }
+  #two {
+    width: 40%;
+    display: none;
+  }
+  #three {
+    width: 80%;
+  }
+  header {
+    height: 20vh;
+  }
 
+  #img1 {
+    width: 200px;
+  }
+
+  #mymy {
+    display: none;
+  }
+  .top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    color: var(--primary-color);
+    font-size: 33px;
+  }
+}
+/***end of media query**/
